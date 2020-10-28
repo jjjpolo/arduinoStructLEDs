@@ -7,10 +7,10 @@ When adding a new element you need to specify the firs state of the element (ON/
 
 ## Serial data frame demo
 The data frame is composed by: Command (three bytes) + PinNumber (two bytes) + stateParam(1 byte)
-# Adding a new element:
+### Adding a new element:
 This command will add a structure for pin 13 starting in ON State
 add131
 
-# Removig a element:
+### Removig a element:
 This command will delte a structre (if exists) for pin 13 (stateParam does not matter)
 del131
